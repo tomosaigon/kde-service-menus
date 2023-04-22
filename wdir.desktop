@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Priority=TopLevel
+MimeType=inode/directory;
+Actions=wrapDirectory
+
+[Desktop Action wrapDirectory]
+Name=Wrap This Dir in New Dir
+Icon=folder-new
+Exec=~/.local/share/kservices5/ServiceMenus/wdir.sh %u
+
